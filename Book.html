@@ -1,0 +1,447 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books </title>
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo">Library</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Book.html">Books</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="Search.html">Search</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1 class="heading">Type To Search Books</h1>
+            <input type="text" placeholder="search books" id="search-box">
+            <div class="card-content" style="display:none">
+                <div class="card">
+                    <div class="card-image" data-title="Card 01"><img src="images/book1.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Electrical Engineering</h3>
+                        <p>Reference Book</br>
+                            Author Name:D.T.Warne</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 02"><img src="images/book2.png" alt=""></div>
+                    <div class="card-info">
+                        <h3>Software Engineering</h3>
+                        <p>Question and Answer Book</br>
+                            Author Name:Dr.Amarjeet Singh</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 03"><img src="images/book3.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Aurdino Engineering</h3>
+                        <p>First Edition</br>
+                            Author Name :D.T.Warne</br>
+                            price:350</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 04"><img src="images/book4.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Engineering</h3>
+                        <p>Question and Answer Book</br>
+                            Author Name:Dr.Amarjeet Singh</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 05"><img src="images/book5.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Engineering Mechanics</h3>
+                        <p>Second Edition </br>
+                            Author Name:Dr.D.S.Kumar</br>
+                            Price: Rs.350</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 06"><img src="images/book6.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Aircrafts Structure</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 07"><img src="images/book7.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Manufactuaring Engineering</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 08"><img src="images/book8.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Security Engineering</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 09"><img src="images/book9.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Basic Electronic Engineering</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-title="Card 10"><img src="images/book10.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Civil Engineering</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book11.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>General Knowledge</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book12.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Quantitiy Apptitude</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book13.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Civil Service Exams</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book14.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>OSSSC Author</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book15.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>General Knowledge</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book16.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Journal of Research in Reading</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book17.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>AJGR</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book18.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Medical BioChemistry</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book19.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Animal Science</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book20.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Letters</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book21.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Humanities Dilmen</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book22.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Agile Project</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book23.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Business Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book24.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Project Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book25.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Time Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book26.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Inventory Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book27.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Human Resource</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book28.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Warehouse Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book29.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Marketing Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/book30.jpg" alt=""></div>
+                    <div class="card-info">
+                        <h3>Marketing Management</h3>
+                        <p>Space craft</br>
+                            Author Name:J.Paulo Davim</br>
+                            Price: Rs.250</p>
+                        <button style="background-color: black; color:white">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <!-- <li class="page-item previous-page disable">
+                <a class="page-link" href="#">Prev</a>
+            </li>
+            <li class="page-item current-page active">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item dots">
+                <a class="page-link" href="#">...</a>
+            </li>
+
+            <li class="page-item current-page">
+                <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item current-page">
+                <a class="page-link" href="#">6</a>
+            </li>
+            <li class="page-item dots">
+                <a class="page-link" href="#">...</a>
+            </li>
+
+            <li class="page-item current-page">
+                <a class="page-link" href="#">10</a>
+            </li>
+            <li class="page-item next-page">
+                <a class="page-link" href="#">Next</a>
+            </li> -->
+
+
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript">
+            function getPageList(totalPages, page, maxLength) {
+                function range(start, end) {
+                    return Array.from(Array(end - start + 1), (_, i) => i + start);
+                }
+                var sideWidth = maxLength < 9 ? 1 : 2;
+                var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+                var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+
+                if (totalPages <= maxLength) {
+                    return range(1, totalPages);
+                }
+                if (page <= maxLength - sideWidth - 1 - rightWidth) {
+                    return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+                }
+                if (page >= totalPages - sideWidth - 1 - rightWidth) {
+                    return range(1, sideWidth).concat(0, range(totalPages - sideWidth - 1 - rightWidth - leftWidth, totalPages));
+                }
+                return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+            }
+            $(function() {
+                var numberOfItems = $(".card-content .card").length;
+                var limitPerPage = 10;
+                var totalPages = Math.ceil(numberOfItems / limitPerPage);
+                var paginationSize = 7;
+                var currentPage;
+
+                function showPage(whichPage) {
+                    if (whichPage < 1 || whichPage > totalPages) return false;
+
+                    currentPage = whichPage;
+                    $(".card-content .card").hide().slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage).show();
+                    $(".pagination li").slice(1, -1).remove();
+
+                    getPageList(totalPages, currentPage, paginationSize).forEach(item => {
+                        $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots").toggleClass("active", item === currentPage).append($("<a>").addClass("page-link").attr({
+                            href: "javascript:void(0)"
+                        }).text(item || "...")).insertBefore(".next-page");
+                    });
+                    $(".previous-page").toggleClass("disable ", currentPage === 1);
+                    $(".next-page").toggleClass("disable", currentPage === totalPages);
+                    return true;
+                }
+                $(".pagination").append(
+                    $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({
+                        href: "javascript:void(0)"
+                    }).text("Prev")),
+                    $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({
+                        href: "javascript:void(0)"
+                    }).text("Next"))
+                );
+                $(".card-content").show();
+                showPage(1);
+
+                $(document).on("click", ".pagination li.current-page:not(.active)", function() {
+                    return showPage(+$(this).text());
+                });
+                $(".next-page").on("click", function() {
+                    return showPage(currentPage + 1);
+                });
+                $(".previous-page").on("click", function() {
+                    return showPage(currentPage - 1);
+                });
+
+            });
+        </script>
+
+</body>
+<script>
+    $('nav ul li.btn span').click(function() {
+        $('nav ul div.items').toggleClass("show");
+        $('nav ul li.btn span').toggleClass("show");
+    });
+</script>
+
+</html>
